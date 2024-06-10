@@ -36,7 +36,7 @@ def load_from_folder():
     media_folder_path = config_data["media_folder"]
     if len(media_folder_path)!=0:
         path = Path(media_folder_path)
-        all_files = [str(file) for file in os.listdir(media_folder_path) if os.path.isfile(os.path.join(media_folder_path, file))]
+        all_files = [str(os.path.join(media_folder_path, file)) for file in os.listdir(media_folder_path) if os.path.isfile(os.path.join(media_folder_path, file))]
         return all_files
     else :
         return []
