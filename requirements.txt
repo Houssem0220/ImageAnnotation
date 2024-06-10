@@ -1,0 +1,8 @@
+label_studio_sdk
+matplotlib
+numpy
+opencv_python
+opencv_python_headless
+Pillow
+tqdm
+ultralytics

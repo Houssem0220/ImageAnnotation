@@ -1,0 +1,26 @@
+{
+  "data": {
+    "image": "#Image#"
+  },
+  "annotations": [
+    {
+      "created_username": "#mail#, 1",
+      "completed_by": {
+        "first_name": "",
+        "last_name": "",
+        "avatar": null,
+        "email": "#mail#"
+      },
+      "result": [
+        
+            #newItem#
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "parent_prediction": null,
+      "parent_annotation": null,
+      "last_created_by": null
+    }
+  ],
+  "predictions": []
+}
